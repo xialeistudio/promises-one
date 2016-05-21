@@ -1,0 +1,29 @@
+{
+  "name": "promises-one",
+  "version": "1.0.0",
+  "description": "execute batch promises one by one,resolve when least one promise is successfully executed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xialeistudio/promises-one.git"
+  },
+  "keywords": [
+    "promise"
+  ],
+  "author": "xialeistudio <xialeistudio@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xialeistudio/promise-one/issues"
+  },
+  "homepage": "https://github.com/xialeistudio/promise-one#readme",
+  "dependencies": {
+    "bluebird": "^3.4.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "should": "^8.3.2"
+  }
+}
