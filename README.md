@@ -1,5 +1,6 @@
 #PromiseOne
 execute batch promises step by step,stop when one promise is successfully executed.
+![test](https://travis-ci.org/xialeistudio/promises-one.svg?branch=master)
 ##Install
 ```
 npm install promises-one
