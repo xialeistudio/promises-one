@@ -1,11 +1,11 @@
-#PromiseOne
+# PromiseOne
 execute batch promises step by step,stop when one promise is successfully executed.   
 ![test](https://travis-ci.org/xialeistudio/promises-one.svg?branch=master)
-##Install
+## Install
 ```
 npm install promises-one
 ```
-##Usage
+## Usage
 ```javascript
 var PromiseOne = require('promise-one');
 var promises = [];//promise list
@@ -15,11 +15,11 @@ PromiseOne(promises).then(function(data){
 	console.error('all promises executed failed');
 });
 ```
-##Test
+## Test
 ```
 npm run test
 ```
-##License
+## License
 The MIT License (MIT)
 Copyright © 2016 <xialeistudio>
 
